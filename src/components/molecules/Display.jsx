@@ -40,10 +40,10 @@ const Display = ({ isLoading, error, selectedData }) => {
         selectedData && (
           <div ref={ref}>
             {
-              <div className="mb-8 rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4  ">
+              <div className="mb-8 rounded-xl border relative border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4  ">
                 <button
                   onClick={downloadScreenshot}
-                  className="absolute top-8 right-8 hover:text-white">
+                  className="absolute top-8 right-8 xs:right-2 xs:top-8  hover:text-white ">
                   <RiScreenshot2Line size={36} />
                 </button>
                 <h3 className="text-3xl font-bold mt-4 mb-8 sm:text-3xl ">

@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useDetectTextMutation } from "../../services/detector";
 import { useEffect } from "react";
 
-import Form from "../organisms/Form";
-import History from "../organisms/History";
-import Display from "../organisms/Display";
+import Form from "../molecules/Form";
+import History from "../molecules/History";
+import Display from "../molecules/Display";
 
 const Engine = () => {
   const [text, setText] = useState();
